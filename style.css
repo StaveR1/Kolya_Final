@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: yellow;
+    padding: 15px;
+    height: 50px;
+}
+
+header h1{
+    float: left;
+    color: navy;
+}
+
+header nav{
+    position: absolute;
+    left: 150px;
+    top: 45px;
+}
+
+nav a{
+    text-decoration: none;
+    color: navy;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.first{
+    width: 500px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.first a{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+    color: navy;
+    margin-left: 10px;
+}
+.top{
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    border-radius: 15px;
+}
+
+.first p{
+    color: grey;
+}
+
+.first {
+    margin-left: 40px;
+}
+
+.firstimg{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border-radius: 15px;
+}
+
+.menu{
+    display: flex;
+    margin: 40px;
+    color: navy;
+}
+
+.menu img{
+    border-radius: 15px;
+}
+
+.text{
+    background-color: yellow;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.text a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: navy;
+    border-radius: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a:hover{
+    background-color: navy;
+    color: white;
+    transition: 1s;  
+}
+
+.first a:hover{
+    background-color: navy;
+    color: yellow;
+    transition: 1s;  
+}
+
+.text a:hover{
+    background-color: navy;
+    color: white;
+    transition: 1s;
+}
+
+footer{
+    background-color: yellow;
+    padding: 15px;
+    display: flex;
+}
+
+footer img{
+    position: relative;
+    top: 18px;
+    left: 50px;
+}
+
+.firstimg:hover{
+    width: 450px;
+    height: 250px;
+    transition: 1s;
+}
+
+.menu img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.text:hover{
+    font-size: 18px;
+    transition: 2s;
+}
+
+.menuh1{
+    text-align: center;
+    color: navy;
+    background-color: yellow;
+    padding: 10px;
+}
